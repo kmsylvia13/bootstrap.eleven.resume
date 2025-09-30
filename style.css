@@ -1,0 +1,124 @@
+/* ------------------------
+   General Body Styles
+------------------------ */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #2c3e50;
+    background-color: #f8f9fa; /* light gray background for Bootstrap bg-light */
+}
+
+/* ------------------------
+   Header
+------------------------ */
+.header-title {
+    font-weight: 700;
+    color: #d6336c; /* Pinkish emphasis */
+}
+
+.lead a {
+    color: #1d68a7; /* Link color */
+    text-decoration: none;
+}
+
+.lead a:hover {
+    text-decoration: underline;
+}
+
+/* ------------------------
+   Image
+------------------------ */
+img {
+    border-radius: 15px;
+}
+
+figcaption {
+    font-size: 0.85rem;
+    font-style: italic;
+}
+
+/* ------------------------
+   Sections & Headings
+------------------------ */
+h2 {
+    color: #343a40;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #d6336c;
+    padding-bottom: 0.25rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+/* ------------------------
+   Cards for Skills, Education, Experience
+------------------------ */
+.card {
+    border-radius: 12px;
+    border: 1px solid #dee2e6;
+    background-color: #ffffff;
+}
+
+.card h3 {
+    color: #e74c3c;
+}
+
+.card ul {
+    padding-left: 1.2rem;
+    margin-bottom: 0;
+}
+
+.card ul li {
+    margin-bottom: 0.5rem;
+}
+
+/* ------------------------
+   Skills & Education Lists
+------------------------ */
+.skill-list, .education-list {
+    list-style-type: disc;
+}
+
+.skill-list li, .education-list li {
+    margin-bottom: 0.5rem;
+}
+
+/* ------------------------
+   Experience
+------------------------ */
+#experience h2 {
+    margin-bottom: 1rem;
+}
+
+/* ------------------------
+   References
+------------------------ */
+.references-list li {
+    margin-bottom: 0.5rem;
+}
+
+/* ------------------------
+   Footer
+------------------------ */
+footer p {
+    font-size: 0.85rem;
+    color: #6c757d;
+}
+
+/* ------------------------
+   Utility Classes
+------------------------ */
+.text-highlight {
+    color: #d6336c;
+    font-weight: 600;
+}
+
+/* ------------------------
+   Responsive tweaks
+------------------------ */
+@media (max-width: 767px) {
+    .card {
+        margin-bottom: 1.5rem;
+    }
+}
